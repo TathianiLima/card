@@ -20,8 +20,8 @@ The designs were created to the following widths:
 
 - Black: hsl(212, 21%, 14%)
 - Grey: hsl(228, 12%, 48%)
-- Cream: hsl(30, 38%, 92%)
-- White: hsl(0, 0%, 100%)
+- Cream: #f2ebe3
+- White: #ffffff
 
 ## Typography
 

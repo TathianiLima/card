@@ -1,0 +1,77 @@
+
+body    {
+    background-color: #f2ebe3;
+    
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    max-width: 1000px;
+    height: 800px;
+    align-items:center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin: 100px auto;
+    display: flex;
+    overflow: hidden;
+
+}
+.card_02 {
+    width: 5px; 
+    padding: 2rem; 
+    display: flex;
+    flex-direction: column; 
+    gap: 2rem;
+    
+
+}
+.img_principal {
+    width: 535px;
+    
+}
+
+.topico_principal {
+    font-size: 0.8rem;
+    letter-spacing: 0.3rem;
+    color: #6c7289;
+    text-transform: uppercase;
+    width: 20%;
+}
+.titulo_01 {
+    font-size: 2rem;
+    line-height: 1;
+    color: #1c232b;
+}
+.descricao {
+    line-height: 1.6;
+    width: 450px;
+}
+.valor {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.valor_01{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #3c8067;
+}
+.valor_02 {
+    color: #6c7289;
+    text-decoration: line-through;
+}
+.botao {
+    background: #3c8067;
+    color: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 8px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
