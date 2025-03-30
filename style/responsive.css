@@ -1,0 +1,92 @@
+@media (max-width: 767px) {
+    body {
+        padding: 20px;
+    }
+
+    .card {
+        flex-direction: column;
+        height: auto;
+        margin: 20px auto;
+        max-width: 100%;
+    }
+
+    .img_principal {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        background-image: url('images/image-product-mobile.jpg'); 
+    }
+
+    .card_02 {
+        width: auto;
+        padding: 1.5rem;
+        height: auto;
+        gap: 1rem;
+    }
+
+    .topico_principal {
+        margin: 0 0 12px 0;
+    }
+
+    .titulo_01 {
+        width: 100%;
+        height: auto;
+        margin: 0 0 12px 0;
+        font-size: 1.8rem;
+    }
+
+    .descricao {
+        width: 100%;
+        height: auto;
+        margin: 0 0 20px 0;
+    }
+
+    .valores {
+        margin: 0 0 20px 0;
+    }
+
+    .botao {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .card {
+        flex-direction: row;
+        max-width: 700px;
+        height: 600px; 
+    }
+    
+    .img_principal {
+        width: 45%;
+        height: 100%;
+    }
+    
+    .card_02 {
+        width: 55%;
+        padding: 1.5rem;
+    }
+    
+    .botao {
+        width: 90%;
+    }
+}
+@media (min-width: 1024px) {
+    .card {
+        max-width: 800px;
+        height: 600px;
+    }
+    
+    .img_principal {
+        width: 400px;
+    }
+    
+    .card_02 {
+        padding: 3rem;
+    }
+    
+    .titulo_01 {
+        width: 200px;
+    }
+}
